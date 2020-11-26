@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE61257031AC00ACA408 /* AppDelegate.swift */; };
+		BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE63257031AC00ACA408 /* SceneDelegate.swift */; };
+		BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE65257031AC00ACA408 /* ViewController.swift */; };
+		BF64CE69257031AC00ACA408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64CE67257031AC00ACA408 /* Main.storyboard */; };
+		BF64CE6B257031AF00ACA408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF64CE6A257031AF00ACA408 /* Assets.xcassets */; };
+		BF64CE6E257031AF00ACA408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */; };
+		BF64CE79257031B000ACA408 /* SwiftTaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE78257031B000ACA408 /* SwiftTaxTests.swift */; };
+		BF64CE84257031B000ACA408 /* SwiftTaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF64CE75257031B000ACA408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF64CE56257031AC00ACA408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF64CE5D257031AC00ACA408;
+			remoteInfo = SwiftTax;
+		};
+		BF64CE80257031B000ACA408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF64CE56257031AC00ACA408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF64CE5D257031AC00ACA408;
+			remoteInfo = SwiftTax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF64CE5E257031AC00ACA408 /* SwiftTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64CE61257031AC00ACA408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF64CE63257031AC00ACA408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF64CE65257031AC00ACA408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF64CE68257031AC00ACA408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF64CE6A257031AF00ACA408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF64CE6D257031AF00ACA408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF64CE6F257031AF00ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF64CE74257031B000ACA408 /* SwiftTaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64CE78257031B000ACA408 /* SwiftTaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaxTests.swift; sourceTree = "<group>"; };
+		BF64CE7A257031B000ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF64CE7F257031B000ACA408 /* SwiftTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaxUITests.swift; sourceTree = "<group>"; };
+		BF64CE85257031B000ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF64CE5B257031AC00ACA408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE71257031B000ACA408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE7C257031B000ACA408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF64CE55257031AC00ACA408 = {
+			isa = PBXGroup;
+			children = (
+				BF64CE60257031AC00ACA408 /* SwiftTax */,
+				BF64CE77257031B000ACA408 /* SwiftTaxTests */,
+				BF64CE82257031B000ACA408 /* SwiftTaxUITests */,
+				BF64CE5F257031AC00ACA408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF64CE5F257031AC00ACA408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE5E257031AC00ACA408 /* SwiftTax.app */,
+				BF64CE74257031B000ACA408 /* SwiftTaxTests.xctest */,
+				BF64CE7F257031B000ACA408 /* SwiftTaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF64CE60257031AC00ACA408 /* SwiftTax */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
+				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
+				BF64CE65257031AC00ACA408 /* ViewController.swift */,
+				BF64CE67257031AC00ACA408 /* Main.storyboard */,
+				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
+				BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */,
+				BF64CE6F257031AF00ACA408 /* Info.plist */,
+			);
+			path = SwiftTax;
+			sourceTree = "<group>";
+		};
+		BF64CE77257031B000ACA408 /* SwiftTaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE78257031B000ACA408 /* SwiftTaxTests.swift */,
+				BF64CE7A257031B000ACA408 /* Info.plist */,
+			);
+			path = SwiftTaxTests;
+			sourceTree = "<group>";
+		};
+		BF64CE82257031B000ACA408 /* SwiftTaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */,
+				BF64CE85257031B000ACA408 /* Info.plist */,
+			);
+			path = SwiftTaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF64CE5D257031AC00ACA408 /* SwiftTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF64CE88257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTax" */;
+			buildPhases = (
+				BF64CE5A257031AC00ACA408 /* Sources */,
+				BF64CE5B257031AC00ACA408 /* Frameworks */,
+				BF64CE5C257031AC00ACA408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTax;
+			productName = SwiftTax;
+			productReference = BF64CE5E257031AC00ACA408 /* SwiftTax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF64CE73257031B000ACA408 /* SwiftTaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF64CE8B257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTaxTests" */;
+			buildPhases = (
+				BF64CE70257031B000ACA408 /* Sources */,
+				BF64CE71257031B000ACA408 /* Frameworks */,
+				BF64CE72257031B000ACA408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF64CE76257031B000ACA408 /* PBXTargetDependency */,
+			);
+			name = SwiftTaxTests;
+			productName = SwiftTaxTests;
+			productReference = BF64CE74257031B000ACA408 /* SwiftTaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF64CE7E257031B000ACA408 /* SwiftTaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF64CE8E257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTaxUITests" */;
+			buildPhases = (
+				BF64CE7B257031B000ACA408 /* Sources */,
+				BF64CE7C257031B000ACA408 /* Frameworks */,
+				BF64CE7D257031B000ACA408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF64CE81257031B000ACA408 /* PBXTargetDependency */,
+			);
+			name = SwiftTaxUITests;
+			productName = SwiftTaxUITests;
+			productReference = BF64CE7F257031B000ACA408 /* SwiftTaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF64CE56257031AC00ACA408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					BF64CE5D257031AC00ACA408 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					BF64CE73257031B000ACA408 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = BF64CE5D257031AC00ACA408;
+					};
+					BF64CE7E257031B000ACA408 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = BF64CE5D257031AC00ACA408;
+					};
+				};
+			};
+			buildConfigurationList = BF64CE59257031AC00ACA408 /* Build configuration list for PBXProject "SwiftTax" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF64CE55257031AC00ACA408;
+			productRefGroup = BF64CE5F257031AC00ACA408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF64CE5D257031AC00ACA408 /* SwiftTax */,
+				BF64CE73257031B000ACA408 /* SwiftTaxTests */,
+				BF64CE7E257031B000ACA408 /* SwiftTaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF64CE5C257031AC00ACA408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64CE6E257031AF00ACA408 /* LaunchScreen.storyboard in Resources */,
+				BF64CE6B257031AF00ACA408 /* Assets.xcassets in Resources */,
+				BF64CE69257031AC00ACA408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE72257031B000ACA408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE7D257031B000ACA408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF64CE5A257031AC00ACA408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
+				BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */,
+				BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE70257031B000ACA408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64CE79257031B000ACA408 /* SwiftTaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF64CE7B257031B000ACA408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64CE84257031B000ACA408 /* SwiftTaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF64CE76257031B000ACA408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF64CE5D257031AC00ACA408 /* SwiftTax */;
+			targetProxy = BF64CE75257031B000ACA408 /* PBXContainerItemProxy */;
+		};
+		BF64CE81257031B000ACA408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF64CE5D257031AC00ACA408 /* SwiftTax */;
+			targetProxy = BF64CE80257031B000ACA408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF64CE67257031AC00ACA408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF64CE68257031AC00ACA408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF64CE6D257031AF00ACA408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF64CE86257031B000ACA408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF64CE87257031B000ACA408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF64CE89257031B000ACA408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF64CE8A257031B000ACA408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF64CE8C257031B000ACA408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTax.app/SwiftTax";
+			};
+			name = Debug;
+		};
+		BF64CE8D257031B000ACA408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTax.app/SwiftTax";
+			};
+			name = Release;
+		};
+		BF64CE8F257031B000ACA408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTax;
+			};
+			name = Debug;
+		};
+		BF64CE90257031B000ACA408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG8LH2CGDX;
+				INFOPLIST_FILE = SwiftTaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = louis.SwiftTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF64CE59257031AC00ACA408 /* Build configuration list for PBXProject "SwiftTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF64CE86257031B000ACA408 /* Debug */,
+				BF64CE87257031B000ACA408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF64CE88257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF64CE89257031B000ACA408 /* Debug */,
+				BF64CE8A257031B000ACA408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF64CE8B257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF64CE8C257031B000ACA408 /* Debug */,
+				BF64CE8D257031B000ACA408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF64CE8E257031B000ACA408 /* Build configuration list for PBXNativeTarget "SwiftTaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF64CE8F257031B000ACA408 /* Debug */,
+				BF64CE90257031B000ACA408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF64CE56257031AC00ACA408 /* Project object */;
+}
