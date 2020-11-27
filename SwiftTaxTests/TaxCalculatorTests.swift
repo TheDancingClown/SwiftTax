@@ -12,9 +12,15 @@ class TaxCalculatorTests: XCTestCase {
     
     let calc = TaxCalculator()
 
-    func testNoTaxDeductedUnderTheBasicAllowance() throws {
-        let takeHome = calc.deductTax(salary: 10000.35)
-        XCTAssertEqual(takeHome, 10000.35)
+    func testNoTaxDeductedUnderThePersonalAllowance() throws {
+        let net = calc.deductTax(salary: 10000.35)
+        XCTAssertEqual(net, 10000.35)
     }
+    
+    func testDeductsBasicTax() throws {
+        let net = calc.deductTax(salary: 20000)
+        XCTAssertEqual(net, 18500)
+    }
+    
 
 }
