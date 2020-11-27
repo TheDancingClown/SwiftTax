@@ -10,6 +10,8 @@
 		BF398EEF25718F440010C5B1 /* TaxCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */; };
 		BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F03257192010010C5B1 /* TaxCalculator202021.swift */; };
 		BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */; };
+		BF398F15257193F30010C5B1 /* NICalculator201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F14257193F30010C5B1 /* NICalculator201920Tests.swift */; };
+		BF398F1E2571AE5C0010C5B1 /* NICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F1D2571AE5C0010C5B1 /* NICalculator.swift */; };
 		BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE61257031AC00ACA408 /* AppDelegate.swift */; };
 		BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE63257031AC00ACA408 /* SceneDelegate.swift */; };
 		BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE65257031AC00ACA408 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator201920.swift; sourceTree = "<group>"; };
 		BF398F03257192010010C5B1 /* TaxCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021.swift; sourceTree = "<group>"; };
 		BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021Tests.swift; sourceTree = "<group>"; };
+		BF398F14257193F30010C5B1 /* NICalculator201920Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NICalculator201920Tests.swift; sourceTree = "<group>"; };
+		BF398F1D2571AE5C0010C5B1 /* NICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NICalculator.swift; sourceTree = "<group>"; };
 		BF64CE5E257031AC00ACA408 /* SwiftTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64CE61257031AC00ACA408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF64CE63257031AC00ACA408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +98,14 @@
 			path = "Tax Calculator";
 			sourceTree = "<group>";
 		};
+		BF398F1C2571AE380010C5B1 /* NI Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BF398F1D2571AE5C0010C5B1 /* NICalculator.swift */,
+			);
+			path = "NI Calculator";
+			sourceTree = "<group>";
+		};
 		BF64CE55257031AC00ACA408 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 			children = (
 				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
 				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
+				BF398F1C2571AE380010C5B1 /* NI Calculator */,
 				BF398F0D257192DE0010C5B1 /* Tax Calculator */,
 				BF64CE65257031AC00ACA408 /* ViewController.swift */,
 				BF64CE67257031AC00ACA408 /* Main.storyboard */,
@@ -132,6 +145,7 @@
 		BF64CE77257031B000ACA408 /* SwiftTaxTests */ = {
 			isa = PBXGroup;
 			children = (
+				BF398F14257193F30010C5B1 /* NICalculator201920Tests.swift */,
 				BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */,
 				BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */,
 				BF64CE7A257031B000ACA408 /* Info.plist */,
@@ -282,6 +296,7 @@
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
 				BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */,
 				BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */,
+				BF398F1E2571AE5C0010C5B1 /* NICalculator.swift in Sources */,
 				BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */,
 				BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF398F15257193F30010C5B1 /* NICalculator201920Tests.swift in Sources */,
 				BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */,
 				BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */,
 			);
