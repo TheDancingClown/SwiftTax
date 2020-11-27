@@ -22,5 +22,9 @@ class TaxCalculatorTests: XCTestCase {
         XCTAssertEqual(net, 18500)
     }
     
+    func testDeductHigherRateTax() throws {
+        let net = calc.deductTax(salary: 55000)
+        XCTAssertEqual(net, 45500)
+    }
 
 }
