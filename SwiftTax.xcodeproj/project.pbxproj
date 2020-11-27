@@ -15,7 +15,7 @@
 		BF64CE6E257031AF00ACA408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */; };
 		BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */; };
 		BF64CE84257031B000ACA408 /* SwiftTaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */; };
-		BF64CE98257037C700ACA408 /* TaxCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* TaxCalculator201920.swift */; };
+		BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* TaxCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		BF64CE7F257031B000ACA408 /* SwiftTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaxUITests.swift; sourceTree = "<group>"; };
 		BF64CE85257031B000ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF64CE97257037C700ACA408 /* TaxCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator201920.swift; sourceTree = "<group>"; };
+		BF64CE97257037C700ACA408 /* TaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
 				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
-				BF64CE97257037C700ACA408 /* TaxCalculator201920.swift */,
+				BF64CE97257037C700ACA408 /* TaxCalculator.swift */,
 				BF64CE65257031AC00ACA408 /* ViewController.swift */,
 				BF64CE67257031AC00ACA408 /* Main.storyboard */,
 				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
@@ -262,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
-				BF64CE98257037C700ACA408 /* TaxCalculator201920.swift in Sources */,
+				BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */,
 				BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */,
 				BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */,
 			);

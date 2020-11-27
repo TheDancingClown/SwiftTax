@@ -10,7 +10,7 @@ import XCTest
 
 class TaxCalculator201920Tests: XCTestCase {
     
-    let calc = TaxCalculator201920()
+    let calc = TaxCalculator()
 
     func testNoTaxDeductedUnderThePersonalAllowance() throws {
         let net = calc.deductTax(salary: 10000.35)
@@ -45,5 +45,15 @@ class TaxCalculator201920Tests: XCTestCase {
     func testTotalPersonalAllowanceReduction() throws {
         let net = calc.deductTax(salary: 135000)
         XCTAssertEqual(net, 88500)
+    }
+    
+    func testAdditionalRateTax() throws {
+        let net = calc.deductTax(salary: 155000)
+        XCTAssertEqual(net, 100250)
+    }
+    
+    func testAdditionalRateTaxWithDecimal() throws {
+        let net = calc.deductTax(salary: 200000.75)
+        XCTAssertEqual(net, 125000.41)
     }
 }
