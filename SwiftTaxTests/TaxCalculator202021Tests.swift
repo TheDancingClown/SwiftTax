@@ -1,16 +1,16 @@
 //
-//  TaxCalculatorTests.swift
+//  TaxCalculator202021Tests.swift
 //  SwiftTaxTests
 //
-//  Created by Louis Kirkham on 26/11/2020.
+//  Created by Louis Kirkham on 27/11/2020.
 //
 
 import XCTest
 @testable import SwiftTax
 
-class TaxCalculator201920Tests: XCTestCase {
+class TaxCalculator202021Tests: XCTestCase {
     
-    let calc = TaxCalculator201920()
+    let calc = TaxCalculator202021()
 
     func testNoTaxDeductedUnderThePersonalAllowance() throws {
         let net = calc.deductTax(gross: 10000.35)

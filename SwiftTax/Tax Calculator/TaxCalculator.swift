@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct TaxCalculator {
-    let taxThresholds = ["allowance": 12500.00, "basic": 50000.00, "allowanceReduction": 100000.00, "additional": 150000.00]
-    let taxRates = ["basic": 0.20, "higher": 0.40, "additional": 0.45]
+class TaxCalculator {
+    
+    var taxThresholds = [String: Double]()
+    var taxRates = [String: Double]()
     
     func deductTax(gross: Double) -> Double {
         if gross > taxThresholds["additional"]! {

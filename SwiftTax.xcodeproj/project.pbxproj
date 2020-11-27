@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF398EEF25718F440010C5B1 /* TaxCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */; };
+		BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F03257192010010C5B1 /* TaxCalculator202021.swift */; };
+		BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */; };
 		BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE61257031AC00ACA408 /* AppDelegate.swift */; };
 		BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE63257031AC00ACA408 /* SceneDelegate.swift */; };
 		BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE65257031AC00ACA408 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator201920.swift; sourceTree = "<group>"; };
+		BF398F03257192010010C5B1 /* TaxCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021.swift; sourceTree = "<group>"; };
+		BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021Tests.swift; sourceTree = "<group>"; };
 		BF64CE5E257031AC00ACA408 /* SwiftTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64CE61257031AC00ACA408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF64CE63257031AC00ACA408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF398F0D257192DE0010C5B1 /* Tax Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE97257037C700ACA408 /* TaxCalculator.swift */,
+				BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */,
+				BF398F03257192010010C5B1 /* TaxCalculator202021.swift */,
+			);
+			path = "Tax Calculator";
+			sourceTree = "<group>";
+		};
 		BF64CE55257031AC00ACA408 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +119,7 @@
 			children = (
 				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
 				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
-				BF64CE97257037C700ACA408 /* TaxCalculator.swift */,
+				BF398F0D257192DE0010C5B1 /* Tax Calculator */,
 				BF64CE65257031AC00ACA408 /* ViewController.swift */,
 				BF64CE67257031AC00ACA408 /* Main.storyboard */,
 				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
@@ -117,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */,
+				BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */,
 				BF64CE7A257031B000ACA408 /* Info.plist */,
 			);
 			path = SwiftTaxTests;
@@ -261,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF398EEF25718F440010C5B1 /* TaxCalculator201920.swift in Sources */,
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
+				BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */,
 				BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */,
 				BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */,
 				BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */,
@@ -272,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */,
 				BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
