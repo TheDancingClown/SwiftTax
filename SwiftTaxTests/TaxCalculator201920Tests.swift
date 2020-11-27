@@ -22,9 +22,28 @@ class TaxCalculator201920Tests: XCTestCase {
         XCTAssertEqual(net, 18500)
     }
     
+    func testDeductsBasicTaxWithDecimal() throws {
+        let net = calc.deductTax(salary: 23000.35)
+        XCTAssertEqual(net, 20900.28)
+    }
+    
     func testDeductHigherRateTax() throws {
         let net = calc.deductTax(salary: 55000)
         XCTAssertEqual(net, 45500)
     }
-
+    
+    func testDeductHigherRateTaxWithDecimal() throws {
+        let net = calc.deductTax(salary: 62000.47)
+        XCTAssertEqual(net, 49700.28)
+    }
+    
+    func testPersonalAllowanceReduction() throws {
+        let net = calc.deductTax(salary: 115000)
+        XCTAssertEqual(net, 78500)
+    }
+    
+    func testTotalPersonalAllowanceReduction() throws {
+        let net = calc.deductTax(salary: 135000)
+        XCTAssertEqual(net, 88500)
+    }
 }
