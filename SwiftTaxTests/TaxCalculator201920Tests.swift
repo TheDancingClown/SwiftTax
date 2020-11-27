@@ -8,9 +8,9 @@
 import XCTest
 @testable import SwiftTax
 
-class TaxCalculatorTests: XCTestCase {
+class TaxCalculator201920Tests: XCTestCase {
     
-    let calc = TaxCalculator()
+    let calc = TaxCalculator201920()
 
     func testNoTaxDeductedUnderThePersonalAllowance() throws {
         let net = calc.deductTax(salary: 10000.35)
