@@ -12,42 +12,42 @@ class TaxCalculator {
     var taxThresholds = [String: Double]()
     var taxRates = [String: Double]()
     
-    func deductTax(gross: Double) -> Double {
+    func PAYE(gross: Double) -> Double {
         if gross > taxThresholds["additional"]! {
-            return gross - additionalRateTaxDeduction(gross: gross)
+            return additionalRateTax(gross: gross)
         } else if gross > taxThresholds["allowanceReduction"]! {
-            return gross - higherRateWithAllowanceDeduction(gross: gross)
+            return higherRateWithAllowanceReduction(gross: gross)
         } else if gross > taxThresholds["basic"]! {
-            return gross - higherRateTaxDeduction(gross: gross)
+            return higherRateTax(gross: gross)
         } else if gross > taxThresholds["allowance"]! {
-            return gross - basicRateTaxDeduction(gross: gross)
+            return basicRateTax(gross: gross)
         } else {
-          return gross
+            return 0.00
         }
     }
     
     private
     
-    func additionalRateTaxDeduction(gross: Double) -> Double {
+    func additionalRateTax(gross: Double) -> Double {
         let additionalRateTaxable = gross - taxThresholds["additional"]!,
             additionalRateTax = additionalRateTaxable * taxRates["additional"]!
         return rounding(tax: additionalRateTax + basicBandTax()) + higherBandTax()
     }
     
-    func higherRateWithAllowanceDeduction(gross: Double) -> Double {
+    func higherRateWithAllowanceReduction(gross: Double) -> Double {
         let reducedAllowance = reducePersonalAllowance(gross: gross),
             higherRateTaxable = gross - taxThresholds["basic"]! + reducedAllowance,
             higherRateTax = higherRateTaxable * taxRates["higher"]!
         return rounding(tax: higherRateTax + basicBandTax())
     }
     
-    func higherRateTaxDeduction(gross: Double) -> Double {
+    func higherRateTax(gross: Double) -> Double {
         let higherRateTaxable = gross - taxThresholds["basic"]!,
             higherRateTax = higherRateTaxable * taxRates["higher"]!
         return rounding(tax: higherRateTax + basicBandTax())
     }
     
-    func basicRateTaxDeduction(gross: Double) -> Double {
+    func basicRateTax(gross: Double) -> Double {
         let basicRateTaxable = gross - taxThresholds["allowance"]!
         return rounding(tax: basicRateTaxable * taxRates["basic"]!)
     }

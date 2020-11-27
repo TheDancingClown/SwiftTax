@@ -13,67 +13,52 @@ class TaxCalculator202021Tests: XCTestCase {
     let calc = TaxCalculator202021()
 
     func testNoTaxDeductedUnderThePersonalAllowance() throws {
-        let net = calc.deductTax(gross: 10000.35)
-        XCTAssertEqual(net, 10000.35)
+        let net = calc.PAYE(gross: 10000)
+        XCTAssertEqual(net, 0.00)
     }
     
     func testDeductsBasicTax() throws {
-        let net = calc.deductTax(gross: 20000)
-        XCTAssertEqual(net, 18500)
-    }
-    
-    func testDeductsBasicTaxWithDecimal() throws {
-        let net = calc.deductTax(gross: 23000.35)
-        XCTAssertEqual(net, 20900.28)
+        let net = calc.PAYE(gross: 20000)
+        XCTAssertEqual(net, 1500.00)
     }
     
     func testDeductHigherRateTax() throws {
-        let net = calc.deductTax(gross: 55000)
-        XCTAssertEqual(net, 45500)
-    }
-    
-    func testDeductHigherRateTaxWithDecimal() throws {
-        let net = calc.deductTax(gross: 62000.47)
-        XCTAssertEqual(net, 49700.28)
+        let net = calc.PAYE(gross: 55000)
+        XCTAssertEqual(net, 9500.00)
     }
     
     func testPersonalAllowanceReduction() throws {
-        let net = calc.deductTax(gross: 115000)
-        XCTAssertEqual(net, 78500)
+        let net = calc.PAYE(gross: 115000)
+        XCTAssertEqual(net, 36500.00)
     }
     
     func testTotalPersonalAllowanceReduction() throws {
-        let net = calc.deductTax(gross: 135000)
-        XCTAssertEqual(net, 88500)
+        let net = calc.PAYE(gross: 135000)
+        XCTAssertEqual(net, 46500.00)
     }
     
     func testAdditionalRateTax() throws {
-        let net = calc.deductTax(gross: 155000)
-        XCTAssertEqual(net, 100250)
-    }
-    
-    func testAdditionalRateTaxWithDecimal() throws {
-        let net = calc.deductTax(gross: 200000.75)
-        XCTAssertEqual(net, 125000.41)
+        let net = calc.PAYE(gross: 200000)
+        XCTAssertEqual(net, 75000.00)
     }
     
     func testPersonaAllowance() throws {
-        let net = calc.deductTax(gross: 12500)
-        XCTAssertEqual(net, 12500)
+        let net = calc.PAYE(gross: 12500)
+        XCTAssertEqual(net, 0.00)
     }
     
     func testBasicThreshold() throws {
-        let net = calc.deductTax(gross: 50000)
-        XCTAssertEqual(net, 42500)
+        let net = calc.PAYE(gross: 50000)
+        XCTAssertEqual(net, 7500.00)
     }
     
     func testAllowanceReductionLimit() throws {
-        let net = calc.deductTax(gross: 125000)
-        XCTAssertEqual(net, 82500)
+        let net = calc.PAYE(gross: 125000)
+        XCTAssertEqual(net, 42500.00)
     }
     
     func testAdditonalThreshold() throws {
-        let net = calc.deductTax(gross: 150000)
-        XCTAssertEqual(net, 97500)
+        let net = calc.PAYE(gross: 150000)
+        XCTAssertEqual(net, 52500.00)
     }
 }
