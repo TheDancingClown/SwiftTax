@@ -8,15 +8,18 @@
 import XCTest
 @testable import SwiftTax
 
-class NICalculator201920Tests: XCTestCase {
+class Class1NICalculator201920Tests: XCTestCase {
 
-    let calc = NICalculator()
+    let calc = Class1NICalculator()
     
     func testNoDeductionUnderPT() {
         let net = calc.deductNI(gross: 500)
         XCTAssertEqual(net, 500)
     }
     
-
+    func testDeductionUnderUEL() {
+        let net = calc.deductNI(gross: 9000)
+        XCTAssertEqual(net, 44.16)
+    }
 
 }

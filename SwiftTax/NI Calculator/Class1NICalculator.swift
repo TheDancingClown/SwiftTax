@@ -7,10 +7,15 @@
 
 import Foundation
 
-class NICalculator {
+class Class1NICalculator {
     
     func deductNI(gross: Double) -> Double {
+        if gross > 8632 {
+            let NI = (gross - 8632) * 0.12
+            return NI
+        } else {
         return gross
+        }
     }
     
 }
