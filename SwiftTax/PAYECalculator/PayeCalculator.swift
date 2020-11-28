@@ -7,12 +7,12 @@
 
 import Foundation
 
-class TaxCalculator {
+class PayeCalculator {
     
     var taxThresholds = [String: Double]()
     var taxRates = [String: Double]()
     
-    func PAYE(gross: Double) -> Double {
+    func paye(gross: Double) -> Double {
         if gross > taxThresholds["additional"]! {
             return additionalRateTax(gross: gross)
         } else if gross > taxThresholds["allowanceReduction"]! {

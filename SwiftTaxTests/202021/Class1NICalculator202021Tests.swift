@@ -13,17 +13,17 @@ class Class1NICalculator202021Tests: XCTestCase {
     let calc = Class1NICalculator202021()
     
     func testNoDeductionUnderPT() {
-        let net = calc.Class1NI(gross: 500)
-        XCTAssertEqual(net, 500)
+        let net = calc.class1NI(gross: 500)
+        XCTAssertEqual(net, 0.00)
     }
     
     func testDeductionUnderUEL() {
-        let net = calc.Class1NI(gross: 10000)
+        let net = calc.class1NI(gross: 10000)
         XCTAssertEqual(net, 60)
     }
     
     func testDeductionAboveUEL() {
-        let net = calc.Class1NI(gross: 60000)
+        let net = calc.class1NI(gross: 60000)
         XCTAssertEqual(net, 5060)
     }
 }

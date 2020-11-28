@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF398EEF25718F440010C5B1 /* TaxCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */; };
-		BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F03257192010010C5B1 /* TaxCalculator202021.swift */; };
+		BF398EEF25718F440010C5B1 /* PayeCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398EEE25718F440010C5B1 /* PayeCalculator201920.swift */; };
+		BF398F04257192010010C5B1 /* PayeCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F03257192010010C5B1 /* PayeCalculator202021.swift */; };
 		BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */; };
 		BF398F15257193F30010C5B1 /* Class1NICalculator201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F14257193F30010C5B1 /* Class1NICalculator201920Tests.swift */; };
 		BF398F1E2571AE5C0010C5B1 /* Class1NICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F1D2571AE5C0010C5B1 /* Class1NICalculator.swift */; };
 		BF398F2C2571C42F0010C5B1 /* Class1NICalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F2B2571C42F0010C5B1 /* Class1NICalculator201920.swift */; };
 		BF398F312571C44A0010C5B1 /* Class1NICalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F302571C44A0010C5B1 /* Class1NICalculator202021.swift */; };
 		BF398F362571C5830010C5B1 /* Class1NICalculator202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F352571C5830010C5B1 /* Class1NICalculator202021Tests.swift */; };
+		BF398F4B2571CA2B0010C5B1 /* TakeHome201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F4A2571CA2B0010C5B1 /* TakeHome201920Tests.swift */; };
+		BF398F552571CB1E0010C5B1 /* TakeHomeCalculator201920.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF398F542571CB1E0010C5B1 /* TakeHomeCalculator201920.swift */; };
 		BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE61257031AC00ACA408 /* AppDelegate.swift */; };
 		BF64CE64257031AC00ACA408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE63257031AC00ACA408 /* SceneDelegate.swift */; };
 		BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE65257031AC00ACA408 /* ViewController.swift */; };
@@ -23,7 +25,7 @@
 		BF64CE6E257031AF00ACA408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */; };
 		BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */; };
 		BF64CE84257031B000ACA408 /* SwiftTaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */; };
-		BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* TaxCalculator.swift */; };
+		BF64CE98257037C700ACA408 /* PayeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* PayeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator201920.swift; sourceTree = "<group>"; };
-		BF398F03257192010010C5B1 /* TaxCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021.swift; sourceTree = "<group>"; };
+		BF398EEE25718F440010C5B1 /* PayeCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeCalculator201920.swift; sourceTree = "<group>"; };
+		BF398F03257192010010C5B1 /* PayeCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeCalculator202021.swift; sourceTree = "<group>"; };
 		BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator202021Tests.swift; sourceTree = "<group>"; };
 		BF398F14257193F30010C5B1 /* Class1NICalculator201920Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1NICalculator201920Tests.swift; sourceTree = "<group>"; };
 		BF398F1D2571AE5C0010C5B1 /* Class1NICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1NICalculator.swift; sourceTree = "<group>"; };
 		BF398F2B2571C42F0010C5B1 /* Class1NICalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1NICalculator201920.swift; sourceTree = "<group>"; };
 		BF398F302571C44A0010C5B1 /* Class1NICalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1NICalculator202021.swift; sourceTree = "<group>"; };
 		BF398F352571C5830010C5B1 /* Class1NICalculator202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1NICalculator202021Tests.swift; sourceTree = "<group>"; };
+		BF398F4A2571CA2B0010C5B1 /* TakeHome201920Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHome201920Tests.swift; sourceTree = "<group>"; };
+		BF398F542571CB1E0010C5B1 /* TakeHomeCalculator201920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeCalculator201920.swift; sourceTree = "<group>"; };
 		BF64CE5E257031AC00ACA408 /* SwiftTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64CE61257031AC00ACA408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF64CE63257031AC00ACA408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +70,7 @@
 		BF64CE7F257031B000ACA408 /* SwiftTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaxUITests.swift; sourceTree = "<group>"; };
 		BF64CE85257031B000ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF64CE97257037C700ACA408 /* TaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator.swift; sourceTree = "<group>"; };
+		BF64CE97257037C700ACA408 /* PayeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,24 +98,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF398F0D257192DE0010C5B1 /* Tax Calculator */ = {
+		BF398F0D257192DE0010C5B1 /* PAYECalculator */ = {
 			isa = PBXGroup;
 			children = (
-				BF64CE97257037C700ACA408 /* TaxCalculator.swift */,
-				BF398EEE25718F440010C5B1 /* TaxCalculator201920.swift */,
-				BF398F03257192010010C5B1 /* TaxCalculator202021.swift */,
+				BF64CE97257037C700ACA408 /* PayeCalculator.swift */,
+				BF398EEE25718F440010C5B1 /* PayeCalculator201920.swift */,
+				BF398F03257192010010C5B1 /* PayeCalculator202021.swift */,
 			);
-			path = "Tax Calculator";
+			path = PAYECalculator;
 			sourceTree = "<group>";
 		};
-		BF398F1C2571AE380010C5B1 /* NI Calculator */ = {
+		BF398F1C2571AE380010C5B1 /* NICalculator */ = {
 			isa = PBXGroup;
 			children = (
 				BF398F1D2571AE5C0010C5B1 /* Class1NICalculator.swift */,
 				BF398F2B2571C42F0010C5B1 /* Class1NICalculator201920.swift */,
 				BF398F302571C44A0010C5B1 /* Class1NICalculator202021.swift */,
 			);
-			path = "NI Calculator";
+			path = NICalculator;
+			sourceTree = "<group>";
+		};
+		BF398F3A2571C9B60010C5B1 /* TakeHomeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BF398F542571CB1E0010C5B1 /* TakeHomeCalculator201920.swift */,
+			);
+			path = TakeHomeCalculator;
+			sourceTree = "<group>";
+		};
+		BF398F522571CA390010C5B1 /* 201920 */ = {
+			isa = PBXGroup;
+			children = (
+				BF398F14257193F30010C5B1 /* Class1NICalculator201920Tests.swift */,
+				BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */,
+				BF398F4A2571CA2B0010C5B1 /* TakeHome201920Tests.swift */,
+			);
+			path = 201920;
+			sourceTree = "<group>";
+		};
+		BF398F532571CA4B0010C5B1 /* 202021 */ = {
+			isa = PBXGroup;
+			children = (
+				BF398F352571C5830010C5B1 /* Class1NICalculator202021Tests.swift */,
+				BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */,
+			);
+			path = 202021;
 			sourceTree = "<group>";
 		};
 		BF64CE55257031AC00ACA408 = {
@@ -139,8 +170,9 @@
 			children = (
 				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
 				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
-				BF398F1C2571AE380010C5B1 /* NI Calculator */,
-				BF398F0D257192DE0010C5B1 /* Tax Calculator */,
+				BF398F3A2571C9B60010C5B1 /* TakeHomeCalculator */,
+				BF398F1C2571AE380010C5B1 /* NICalculator */,
+				BF398F0D257192DE0010C5B1 /* PAYECalculator */,
 				BF64CE65257031AC00ACA408 /* ViewController.swift */,
 				BF64CE67257031AC00ACA408 /* Main.storyboard */,
 				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
@@ -153,10 +185,8 @@
 		BF64CE77257031B000ACA408 /* SwiftTaxTests */ = {
 			isa = PBXGroup;
 			children = (
-				BF398F14257193F30010C5B1 /* Class1NICalculator201920Tests.swift */,
-				BF398F352571C5830010C5B1 /* Class1NICalculator202021Tests.swift */,
-				BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */,
-				BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */,
+				BF398F522571CA390010C5B1 /* 201920 */,
+				BF398F532571CA4B0010C5B1 /* 202021 */,
 				BF64CE7A257031B000ACA408 /* Info.plist */,
 			);
 			path = SwiftTaxTests;
@@ -301,10 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF398EEF25718F440010C5B1 /* TaxCalculator201920.swift in Sources */,
+				BF398EEF25718F440010C5B1 /* PayeCalculator201920.swift in Sources */,
+				BF398F552571CB1E0010C5B1 /* TakeHomeCalculator201920.swift in Sources */,
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
-				BF398F04257192010010C5B1 /* TaxCalculator202021.swift in Sources */,
-				BF64CE98257037C700ACA408 /* TaxCalculator.swift in Sources */,
+				BF398F04257192010010C5B1 /* PayeCalculator202021.swift in Sources */,
+				BF64CE98257037C700ACA408 /* PayeCalculator.swift in Sources */,
 				BF398F1E2571AE5C0010C5B1 /* Class1NICalculator.swift in Sources */,
 				BF398F312571C44A0010C5B1 /* Class1NICalculator202021.swift in Sources */,
 				BF64CE62257031AC00ACA408 /* AppDelegate.swift in Sources */,
@@ -318,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF398F362571C5830010C5B1 /* Class1NICalculator202021Tests.swift in Sources */,
+				BF398F4B2571CA2B0010C5B1 /* TakeHome201920Tests.swift in Sources */,
 				BF398F15257193F30010C5B1 /* Class1NICalculator201920Tests.swift in Sources */,
 				BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */,
 				BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */,

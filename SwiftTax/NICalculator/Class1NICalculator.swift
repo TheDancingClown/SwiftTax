@@ -9,34 +9,33 @@ import Foundation
 
 class Class1NICalculator {
     
-    var NIThresholds = [String: Double]()
-    var NIRates = [String: Double]()
+    var nIThresholds = [String: Double]()
+    var nIRates = [String: Double]()
     
-    func Class1NI(gross: Double) -> Double {
-        if gross > NIThresholds["UEL"]! {
+    func class1NI(gross: Double) -> Double {
+        if gross > nIThresholds["UEL"]! {
             return upperNI(gross: gross)
-        }
-        if gross > NIThresholds["PT"]! {
+        } else if gross > nIThresholds["PT"]! {
             return basicNI(gross: gross)
         } else {
-        return gross
+            return 0.00
         }
     }
     
     private
     
     func primaryNIBand() -> Double {
-        return (NIThresholds["UEL"]! - NIThresholds["PT"]!) * NIRates["primary"]!
+        return (nIThresholds["UEL"]! - nIThresholds["PT"]!) * nIRates["primary"]!
     }
     
     func upperNI(gross: Double) -> Double {
-        let upperNI = (gross - NIThresholds["UEL"]!) * NIRates["upper"]!
+        let upperNI = (gross - nIThresholds["UEL"]!) * nIRates["upper"]!
         let basicNI = primaryNIBand()
         return upperNI + basicNI
     }
     
     func basicNI(gross: Double) -> Double {
-        let NI = (gross - NIThresholds["PT"]!) * NIRates["primary"]!
+        let NI = (gross - nIThresholds["PT"]!) * nIRates["primary"]!
         return NI
     }
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TaxCalculator201920: TaxCalculator {
+class PayeCalculator201920: PayeCalculator {
     
     override init() {
         super.init()
