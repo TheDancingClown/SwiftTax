@@ -174,15 +174,9 @@
 		BF64CE60257031AC00ACA408 /* SwiftTax */ = {
 			isa = PBXGroup;
 			children = (
-				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
-				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
-				BF398F3A2571C9B60010C5B1 /* TakeHomeCalculator */,
-				BF398F1C2571AE380010C5B1 /* NICalculator */,
-				BF398F0D257192DE0010C5B1 /* PAYECalculator */,
-				BF64CE65257031AC00ACA408 /* ViewController.swift */,
-				BF64CE67257031AC00ACA408 /* Main.storyboard */,
-				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
-				BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */,
+				BF8E2BAB2571D4CF00CFFCFF /* Controller */,
+				BF8E2BA92571D49300CFFCFF /* Model */,
+				BF8E2BAA2571D4AC00CFFCFF /* View */,
 				BF64CE6F257031AF00ACA408 /* Info.plist */,
 			);
 			path = SwiftTax;
@@ -205,6 +199,36 @@
 				BF64CE85257031B000ACA408 /* Info.plist */,
 			);
 			path = SwiftTaxUITests;
+			sourceTree = "<group>";
+		};
+		BF8E2BA92571D49300CFFCFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF398F0D257192DE0010C5B1 /* PAYECalculator */,
+				BF398F1C2571AE380010C5B1 /* NICalculator */,
+				BF398F3A2571C9B60010C5B1 /* TakeHomeCalculator */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8E2BAA2571D4AC00CFFCFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE6A257031AF00ACA408 /* Assets.xcassets */,
+				BF64CE67257031AC00ACA408 /* Main.storyboard */,
+				BF64CE6C257031AF00ACA408 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF8E2BAB2571D4CF00CFFCFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF64CE63257031AC00ACA408 /* SceneDelegate.swift */,
+				BF64CE65257031AC00ACA408 /* ViewController.swift */,
+				BF64CE61257031AC00ACA408 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
