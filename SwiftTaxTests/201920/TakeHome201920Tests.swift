@@ -16,5 +16,25 @@ class TakeHome201920Tests: XCTestCase {
         let net = takeHome.calculateNet(gross: 5000)
         XCTAssertEqual(net, 5000.00)
     }
+    
+    func testBasicDeduction() throws {
+        let net = takeHome.calculateNet(gross: 25000)
+        XCTAssertEqual(net, 20535.84)
+    }
+    
+    func testHigherRate() throws {
+        let net = takeHome.calculateNet(gross: 75000)
+        XCTAssertEqual(net, 52035.84)
+    }
+    
+    func testAllowanceReduction() throws {
+        let net = takeHome.calculateNet(gross: 110000)
+        XCTAssertEqual(net, 70335.84)
+    }
+    
+    func testAdditionalRate() throws {
+        let net = takeHome.calculateNet(gross: 175000)
+        XCTAssertEqual(net, 103785.84)
+    }
 
 }
