@@ -7,14 +7,12 @@
 
 import Foundation
 
-class TakeHomeCalculator202021 {
+class TakeHomeCalculator202021: TakeHomeCalculator {
     
-    let payeCalc = PayeCalculator202021()
-    let class1Calc = Class1NICalculator202021()
-    
-    func calculateNet(gross: Double) -> Double {
-        let paye = payeCalc.paye(gross: gross)
-        let ni = class1Calc.class1NI(gross: gross)
-        return gross - paye - ni
+    override init() {
+        super.init()
+        payeCalc = PayeCalculator202021()
+        class1Calc = Class1NICalculator202021()
     }
+    
 }

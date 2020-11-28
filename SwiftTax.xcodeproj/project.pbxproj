@@ -28,6 +28,7 @@
 		BF64CE98257037C700ACA408 /* PayeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* PayeCalculator.swift */; };
 		BF8E2B9D2571D1CA00CFFCFF /* TakeHome202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E2B9C2571D1CA00CFFCFF /* TakeHome202021Tests.swift */; };
 		BF8E2BA52571D25600CFFCFF /* TakeHomeCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */; };
+		BFA581B925728E1900DA9664 /* TakeHomeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA581B825728E1900DA9664 /* TakeHomeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		BF64CE97257037C700ACA408 /* PayeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeCalculator.swift; sourceTree = "<group>"; };
 		BF8E2B9C2571D1CA00CFFCFF /* TakeHome202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHome202021Tests.swift; sourceTree = "<group>"; };
 		BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeCalculator202021.swift; sourceTree = "<group>"; };
+		BFA581B825728E1900DA9664 /* TakeHomeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		BF398F3A2571C9B60010C5B1 /* TakeHomeCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BFA581B825728E1900DA9664 /* TakeHomeCalculator.swift */,
 				BF398F542571CB1E0010C5B1 /* TakeHomeCalculator201920.swift */,
 				BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */,
 			);
@@ -364,6 +367,7 @@
 				BF8E2BA52571D25600CFFCFF /* TakeHomeCalculator202021.swift in Sources */,
 				BF398EEF25718F440010C5B1 /* PayeCalculator201920.swift in Sources */,
 				BF398F552571CB1E0010C5B1 /* TakeHomeCalculator201920.swift in Sources */,
+				BFA581B925728E1900DA9664 /* TakeHomeCalculator.swift in Sources */,
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
 				BF398F04257192010010C5B1 /* PayeCalculator202021.swift in Sources */,
 				BF64CE98257037C700ACA408 /* PayeCalculator.swift in Sources */,
