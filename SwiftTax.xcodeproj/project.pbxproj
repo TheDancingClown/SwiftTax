@@ -26,6 +26,8 @@
 		BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE78257031B000ACA408 /* TaxCalculator201920Tests.swift */; };
 		BF64CE84257031B000ACA408 /* SwiftTaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */; };
 		BF64CE98257037C700ACA408 /* PayeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64CE97257037C700ACA408 /* PayeCalculator.swift */; };
+		BF8E2B9D2571D1CA00CFFCFF /* TakeHome202021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E2B9C2571D1CA00CFFCFF /* TakeHome202021Tests.swift */; };
+		BF8E2BA52571D25600CFFCFF /* TakeHomeCalculator202021.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		BF64CE83257031B000ACA408 /* SwiftTaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTaxUITests.swift; sourceTree = "<group>"; };
 		BF64CE85257031B000ACA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF64CE97257037C700ACA408 /* PayeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayeCalculator.swift; sourceTree = "<group>"; };
+		BF8E2B9C2571D1CA00CFFCFF /* TakeHome202021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHome202021Tests.swift; sourceTree = "<group>"; };
+		BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeCalculator202021.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				BF398F542571CB1E0010C5B1 /* TakeHomeCalculator201920.swift */,
+				BF8E2BA42571D25600CFFCFF /* TakeHomeCalculator202021.swift */,
 			);
 			path = TakeHomeCalculator;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			children = (
 				BF398F352571C5830010C5B1 /* Class1NICalculator202021Tests.swift */,
 				BF398F08257192380010C5B1 /* TaxCalculator202021Tests.swift */,
+				BF8E2B9C2571D1CA00CFFCFF /* TakeHome202021Tests.swift */,
 			);
 			path = 202021;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8E2BA52571D25600CFFCFF /* TakeHomeCalculator202021.swift in Sources */,
 				BF398EEF25718F440010C5B1 /* PayeCalculator201920.swift in Sources */,
 				BF398F552571CB1E0010C5B1 /* TakeHomeCalculator201920.swift in Sources */,
 				BF64CE66257031AC00ACA408 /* ViewController.swift in Sources */,
@@ -352,6 +359,7 @@
 				BF398F4B2571CA2B0010C5B1 /* TakeHome201920Tests.swift in Sources */,
 				BF398F15257193F30010C5B1 /* Class1NICalculator201920Tests.swift in Sources */,
 				BF398F09257192380010C5B1 /* TaxCalculator202021Tests.swift in Sources */,
+				BF8E2B9D2571D1CA00CFFCFF /* TakeHome202021Tests.swift in Sources */,
 				BF64CE79257031B000ACA408 /* TaxCalculator201920Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
