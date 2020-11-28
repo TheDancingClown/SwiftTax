@@ -47,7 +47,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             calc = TakeHomeCalculator201920()
         }
         let takeHome = calc.calculateNet(gross: Double(salaryEntry.text!) ?? 0.00)
-        resultsLabel.text = String(takeHome)
+        let formatter = NumberFormatter()
+        formatter.locale = Locale(identifier: "en_GB")
+        formatter.numberStyle = .currency
+        resultsLabel.text = formatter.string(from: takeHome as NSNumber)
+        //need to extract the formatting
     }
     
 }
